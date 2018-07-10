@@ -1,0 +1,187 @@
+{
+	"Items":	[{
+			"Index":	0,
+			"ShaderPackage":	{
+				"Name":	"",
+				"Path":	"defaultRes/shaders_package//Outline.vert/OPENGL.tjson",
+				"ShaderDescriptors":	[{
+						"first":	{
+							"GlobalShaderMacroMask":	0,
+							"PrivateMacros":	0
+						},
+						"second":	{
+							"ShaderMacros":	{
+								"GlobalShaderMacroMask":	0,
+								"PrivateMacros":	0
+							},
+							"MaterialUniformHeader":	{
+								"ConstantSize":	4,
+								"VariantCount":	0,
+								"UsedRegisterCount":	0,
+								"Items":	[{
+										"Name":	"lineWidth",
+										"Offset":	0,
+										"BaseType":	4,
+										"ComponentCount":	1,
+										"ArraySize":	1,
+										"DefaultValue":	{
+											"Name":	"",
+											"Type":	0,
+											"Count":	1,
+											"Value":	""
+										},
+										"ExportedName":	"LineWidth",
+										"IsColor":	false,
+										"ContainsDefaultValue":	false,
+										"IsSceneTexture":	false,
+										"IsExported":	true
+									}]
+							},
+							"ShaderPackInfo":	{
+								"PackedUniformbuffer":	true,
+								"GroupFlattenedUBs":	false,
+								"CBCopyMembers":	[{
+										"SourceBufferIndex":	1,
+										"SourceOffset":	128,
+										"SizeInBytes":	64,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	104,
+										"DestBufferOffset":	80
+									}, {
+										"SourceBufferIndex":	1,
+										"SourceOffset":	880,
+										"SizeInBytes":	12,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	104,
+										"DestBufferOffset":	144
+									}, {
+										"SourceBufferIndex":	2,
+										"SourceOffset":	64,
+										"SizeInBytes":	64,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	104,
+										"DestBufferOffset":	16
+									}, {
+										"SourceBufferIndex":	2,
+										"SourceOffset":	224,
+										"SizeInBytes":	16,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	109,
+										"DestBufferOffset":	0
+									}, {
+										"SourceBufferIndex":	3,
+										"SourceOffset":	0,
+										"SizeInBytes":	4,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	104,
+										"DestBufferOffset":	0
+									}],
+								"SamplerMapInfos":	[],
+								"PackedArrayInfos":	[{
+										"Size":	160,
+										"TypeName":	104
+									}, {
+										"Size":	16,
+										"TypeName":	109
+									}],
+								"NumStorageBuffer":	0,
+								"ImageInfos":	[]
+							}
+						}
+					}, {
+						"first":	{
+							"GlobalShaderMacroMask":	1,
+							"PrivateMacros":	0
+						},
+						"second":	{
+							"ShaderMacros":	{
+								"GlobalShaderMacroMask":	1,
+								"PrivateMacros":	0
+							},
+							"MaterialUniformHeader":	{
+								"ConstantSize":	4,
+								"VariantCount":	0,
+								"UsedRegisterCount":	0,
+								"Items":	[{
+										"Name":	"lineWidth",
+										"Offset":	0,
+										"BaseType":	4,
+										"ComponentCount":	1,
+										"ArraySize":	1,
+										"DefaultValue":	{
+											"Name":	"",
+											"Type":	0,
+											"Count":	1,
+											"Value":	""
+										},
+										"ExportedName":	"LineWidth",
+										"IsColor":	false,
+										"ContainsDefaultValue":	false,
+										"IsSceneTexture":	false,
+										"IsExported":	true
+									}]
+							},
+							"ShaderPackInfo":	{
+								"PackedUniformbuffer":	true,
+								"GroupFlattenedUBs":	false,
+								"CBCopyMembers":	[{
+										"SourceBufferIndex":	1,
+										"SourceOffset":	128,
+										"SizeInBytes":	64,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	104,
+										"DestBufferOffset":	80
+									}, {
+										"SourceBufferIndex":	1,
+										"SourceOffset":	880,
+										"SizeInBytes":	12,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	104,
+										"DestBufferOffset":	144
+									}, {
+										"SourceBufferIndex":	2,
+										"SourceOffset":	64,
+										"SizeInBytes":	64,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	104,
+										"DestBufferOffset":	16
+									}, {
+										"SourceBufferIndex":	2,
+										"SourceOffset":	224,
+										"SizeInBytes":	16,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	109,
+										"DestBufferOffset":	0
+									}, {
+										"SourceBufferIndex":	3,
+										"SourceOffset":	0,
+										"SizeInBytes":	4,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	104,
+										"DestBufferOffset":	0
+									}, {
+										"SourceBufferIndex":	4,
+										"SourceOffset":	0,
+										"SizeInBytes":	3600,
+										"DestBufferIndex":	0,
+										"DestBufferPrecision":	104,
+										"DestBufferOffset":	160
+									}],
+								"SamplerMapInfos":	[],
+								"PackedArrayInfos":	[{
+										"Size":	3760,
+										"TypeName":	104
+									}, {
+										"Size":	16,
+										"TypeName":	109
+									}],
+								"NumStorageBuffer":	0,
+								"ImageInfos":	[]
+							}
+						}
+					}],
+				"ShaderPlatformType":	2,
+				"ShaderType":	0
+			}
+		}]
+}
